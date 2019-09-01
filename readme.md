@@ -37,7 +37,7 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [author name][link-author]
+- [Owen Jubilant][link-author]
 - [All Contributors][link-contributors]
 
 ## License
@@ -53,5 +53,5 @@ license. Please see the [license file](license.md) for more information.
 [link-downloads]: https://packagist.org/packages/owenoj/emergentpay
 [link-travis]: https://travis-ci.org/owenoj/emergentpay
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/owenoj
+[link-author]: https://github.com/owen-oj
 [link-contributors]: ../../contributors

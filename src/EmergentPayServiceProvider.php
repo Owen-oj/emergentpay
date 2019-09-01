@@ -2,6 +2,7 @@
 
 namespace Owenoj\EmergentPay;
 
+use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
 
 class EmergentPayServiceProvider extends ServiceProvider
@@ -35,7 +36,7 @@ class EmergentPayServiceProvider extends ServiceProvider
 
         // Register the service the package provides.
         $this->app->singleton('emergentpay', function ($app) {
-            return new EmergentPay;
+            return new EmergentPay($app->make("request"), new Client());
         });
     }
 
@@ -48,7 +49,7 @@ class EmergentPayServiceProvider extends ServiceProvider
     {
         return ['emergentpay'];
     }
-    
+
     /**
      * Console-specific booting.
      *

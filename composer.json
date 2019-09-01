@@ -1,7 +1,7 @@
 {
     "name": "owenoj/emergentpay",
-    "description": ":description",
-    "license": "license",
+    "description": "A Laravel payment package For Emergent payment gateway ",
+    "license": "MIT",
     "authors": [
         {
             "name": "Owen Jubilant",
@@ -10,9 +10,10 @@
         }
     ],
     "homepage": "https://github.com/owen-oj/emergentpay",
-    "keywords": ["Laravel", "EmergentPay"],
+    "keywords": ["Laravel", "EmergentPay","Payment"],
     "require": {
-        "illuminate/support": "~5"
+        "illuminate/support": "~5",
+        "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
         "phpunit/phpunit": "~7.0",
