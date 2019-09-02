@@ -14,7 +14,7 @@ return [
     | when ready to go into production
     |
     */
-    'environment' => env('EMERGENT_ENVIRONMENT','test'),
+    'environment' => env('EMERGENT_ENVIRONMENT', 'test'),
 
     /*
     |--------------------------------------------------------------------------
@@ -35,7 +35,6 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'currency' => 'GHS'
-
+    'currency' => 'GHS',
 
 ];
