@@ -89,4 +89,13 @@ class EmergentPay
 
         return Redirect::to($transaction->redirect_url);
     }
+
+    /**
+     * Callback for payment
+     * @return object
+     */
+    public function callback()
+    {
+        return (object)$this->request->all();
+    }
 }
