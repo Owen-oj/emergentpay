@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
 This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
@@ -46,12 +45,10 @@ license. Please see the [license file](license.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/owenoj/emergentpay.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/owenoj/emergentpay.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/owenoj/emergentpay/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
+[ico-styleci]: https://styleci.io/repos/205626111/shield
 
 [link-packagist]: https://packagist.org/packages/owenoj/emergentpay
 [link-downloads]: https://packagist.org/packages/owenoj/emergentpay
-[link-travis]: https://travis-ci.org/owenoj/emergentpay
-[link-styleci]: https://styleci.io/repos/12345678
+[link-styleci]: https://styleci.io/repos/205626111
 [link-author]: https://github.com/owen-oj
 [link-contributors]: ../../contributors
