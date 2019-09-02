@@ -36,7 +36,7 @@ class EmergentPayServiceProvider extends ServiceProvider
 
         // Register the service the package provides.
         $this->app->singleton('emergentpay', function ($app) {
-            return new EmergentPay($app->make("request"), new Client());
+            return new EmergentPay($app->make('request'), new Client());
         });
     }
 
