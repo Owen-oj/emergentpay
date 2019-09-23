@@ -15,7 +15,21 @@ $ composer require owenoj/emergentpay
 ```
 
 ## Usage
+Update your .env file with the following  and their values.
+```
+EMERGENT_ENVIRONMENT
+EMERGENT_APP_ID
+EMERGENT_API_KEY
+```
+```
+class EmergentController extends Controller
+{
+    public function pay()
+    {   
+        EmergentPay::initialize(route('callback'));    
+    }
 
+```
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
@@ -52,3 +66,4 @@ license. Please see the [license file](license.md) for more information.
 [link-styleci]: https://styleci.io/repos/205626111
 [link-author]: https://github.com/owen-oj
 [link-contributors]: ../../contributors
+

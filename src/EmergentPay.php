@@ -70,10 +70,10 @@ class EmergentPay
             'order_id' => $this->request->transaction_reference,
             'return_url' => $callback_url,
         ];
-        $url = $this->baseUrl.'/ProcessPayment';
+        $url = $this->baseUrl . '/ProcessPayment';
 
         $request = $this->guzzleClient->request('POST', $url, ['body' => json_encode($payment_params),
-            'headers' => $this->headers, ]);
+            'headers' => $this->headers,]);
 
         $transaction = json_decode($request->getBody()->getContents());
 
@@ -91,6 +91,6 @@ class EmergentPay
      */
     public function callback()
     {
-        return (object) $this->request->all();
+        return (object)$this->request->all();
     }
 }
