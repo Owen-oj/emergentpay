@@ -12,7 +12,7 @@
     "homepage": "https://github.com/owen-oj/emergentpay",
     "keywords": ["Laravel", "EmergentPay","Payment"],
     "require": {
-        "illuminate/support": "~5",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
         "guzzlehttp/guzzle": "^6.2"
     },
     "require-dev": {
